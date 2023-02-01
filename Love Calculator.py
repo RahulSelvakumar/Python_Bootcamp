@@ -1,3 +1,4 @@
+#Basic love calculator
 total=0
 print("Welcome to python Love Calculator ")
 name1=input("Enter your name: ")
@@ -15,6 +16,13 @@ o=name.count("o")
 v=name.count("v")
 e2=name.count("e")
 love=l+o+v+e2
-
-print(f"your love percentage is {true}{love}%")
+love_percetage=str(true)+str(love)
+love_percetage=int(love_percetage)
+if love_percetage>10 and love_percetage<90:
+    statement="Your are in a good relationship:-)"
+elif love_percentage>90:
+    statement="You have an unbreakable bond!! ;-)"
+else:
+    statement="Sorryyy try to improve your relationship:-("
+print(f"your love percentage is {love_percetage}% {statement}")
 
