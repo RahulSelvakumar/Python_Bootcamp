@@ -1,8 +1,5 @@
 import random
-test_seed=int(input("Enter the seed number: "))
-random.seed(test_seed)
-toss=random.randint(0,1)
-if toss==0:
-    print("Heads")
-else:
-    print("Tails")
+names=input('Enter all the names: ').split(',')
+size=len(names)
+n=random.randint(0,size+1)
+print(f"{names[n]} should pay the bill")
