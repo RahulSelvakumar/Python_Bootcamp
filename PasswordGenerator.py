@@ -1,6 +1,4 @@
-marks=[80,74,65,73,89,69,46]
-max=0
-for i in marks:
-    if i>max:
-        max=i
-print(max)
+ans=0
+for x in range(2,101,2):
+    ans+=x
+print(ans)
