@@ -1,6 +1,6 @@
-height=[180,124,165,173,189,169,146]
-avg=0
-for x in height:
-    avg+=x
-avg=avg/len(height)
-print(round(avg))
+marks=[80,74,65,73,89,69,46]
+max=0
+for i in marks:
+    if i>max:
+        max=i
+print(max)
