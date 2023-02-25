@@ -25,4 +25,3 @@ elif love_percentage>90:
 else:
     statement="Sorryyy try to improve your relationship:-("
 print(f"your love percentage is {love_percetage}% {statement}")
-
